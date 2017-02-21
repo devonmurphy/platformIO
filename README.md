@@ -7,22 +7,22 @@ pip install -U platformio
 </pre>
 
 #Make a directory to contain the project
-{{{
+<pre>
 mkdir arduino-project-name
 cd arduino-project-name
-}}}
+</pre>
 
 #Start the project
-{{{
+<pre>
 platformio init --board uno
-}}}
+</pre>
 
 #This is your Arduino sketch
-{{{
+<pre>
 vim src/main.cpp
-}}}
+</pre>
 
 #Upload code
-{{{
+<pre>
 platformio run --target upload
-}}}
+</pre>

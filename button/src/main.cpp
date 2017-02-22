@@ -6,7 +6,7 @@
 #include "Arduino.h"
 
 #define BUTTON_PIN 2
-#define LED_PIN  13
+#define LED_PIN  9
 
 int buttonState = 0;         // variable for reading the pushbutton status
 

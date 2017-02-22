@@ -6,7 +6,7 @@
 #include "Arduino.h"
 
 #define BUTTON_PIN 2
-#define LED_PIN  13
+#define LED_PIN  9
 
 //Use this to set the sensitivity of the button
 unsigned long DEBOUNCE_DELAY_MS = 50; 

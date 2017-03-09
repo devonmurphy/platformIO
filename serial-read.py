@@ -17,4 +17,4 @@ counter=0
 while 1:
     value = ser.readline()
     if(value):
-        print str(datetime.datetime.now().time())," - " , value
+        print str(datetime.datetime.now().time())," - " , value.strip("\n")
